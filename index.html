@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>rawb | awareness & herb</title>
+    <meta name="description" content="自然農で育つ植物とともに、内なる気づきのための余白を。rawbはハーブティーを通して、自然と感覚を編み直すティザープロジェクト。2026年夏、収穫とともに。">
+    <meta name="keywords" content="ハーブティー, 自然農, ハーブ, インナーケア, awareness, ライフスタイル, rawb">
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://awaiaune.github.io/" />
+
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="512x512">
+    <link rel="apple-touch-icon" href="/favicon.png">
+
+    <meta property="og:title" content="rawb | awareness & herb" />
+    <meta property="og:description" content="Nature, Unfiltered. 植物という鏡を通して、ありのままの自分に還る。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://awaiaune.github.io/" />
+    <meta property="og:image" content="https://awaiaune.github.io/ogp.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Noto+Serif+JP:wght@300;500&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            font-family: 'Noto Serif JP', serif;
+            background-color: #fdfdfd;
+            background-image: url("data:image/svg+xml,%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+        }
+        .font-playfair { font-family: 'Playfair Display', serif; }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ===== ② rawb-text（本文専用・レスポンシブ） ===== */
+        .rawb-text {
+            font-size: 12.5px;
+            line-height: 2.4;
+            max-width: 34rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (min-width: 768px) {
+            .rawb-text {
+                font-size: 15px;
+                line-height: 2.6;
+                max-width: 40rem;
+            }
+        }
+        @media (min-width: 1024px) {
+            .rawb-text {
+                font-size: 16px;
+                line-height: 2.8;
+                max-width: 46rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="text-[#333] antialiased overflow-x-hidden">
+
+    <!-- HERO -->
+    <section class="hero fade-in min-h-screen flex flex-col justify-start items-center text-center px-8 pt-[33vh] relative">
+        <div id="countdown" class="font-playfair text-[9px] tracking-[0.4em] text-gray-400 mb-2"></div>
+
+        <h1 class="font-playfair text-6xl md:text-6xl tracking-[0.1em] m-0">rawb</h1>
+
+        <p class="mt-6 text-[9px] tracking-widest text-gray-400 leading-relaxed">
+            自然農で育つハーブとともに、<br>
+            内側に還るためのハーブティープロジェクト。
+        </p>
+
+        <div class="mt-20 text-[11px] tracking-widest">
+            <a href="journal.html" class="text-gray-400 hover:text-black transition-colors border-b border-gray-100 hover:border-black pb-1 italic">
+                Journal →
+            </a>
+        </div>
+    </section>
+
+    <!-- CONCEPT -->
+    <section class="fade-in py-32 flex flex-col items-center text-center px-8">
+        <div class="leading-[2.5]">
+            <div class="font-playfair italic text-xl mb-10 text-gray-400">
+                rawb /rɔːb/ <br>raw + herb
+            </div>
+
+            <p class="rawb-text font-light">
+                静寂の中で、感覚が研ぎ澄まされること。</br>
+                雑音の中に、空白を見つけること。</br>
+                植物の純度が、内なる気づきと重なる瞬間。
+            </p>
+
+            <p class="rawb-text mt-12 text-gray-500">
+                私たちが届けるのは、そのきっかけに過ぎません。
+            </p>
+        </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+    <section class="fade-in py-32 flex flex-col items-center text-center px-8">
+        <p class="rawb-text font-light">
+            rawbは、</br>
+            日本の自然農の畑で育つ植物と向き合いながら、<br>
+            ハーブティーというかたちで、<br>
+            日常に静かなリズムを取り戻すことを目指しています。
+        </p>
+    </section>
+
+    <!-- MESSAGE -->
+    <section class="fade-in py-32 flex flex-col items-center text-center px-8">
+        <p class="rawb-text font-light">
+            思考のノイズを脱ぎ捨てて、心に「余白」を。<br>
+            綺麗なものをまとうように、身体の内側を整える。<br>
+            その選択が、明日のあなたの表情を作る。
+        </p>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="fade-in py-32 flex flex-col justify-center items-center px-8">
+        <p class="font-playfair italic text-xl md:text-2xl tracking-widest">
+            "Simply being, as you are."
+        </p>
+    </section>
+
+    <!-- COMING SOON -->
+    <section class="fade-in py-72 text-center">
+        <p class="text-[11px] tracking-widest text-gray-400">
+            2026年夏、最初の収穫とともに公開予定。
+        </p>
+    </section>
+
+    <section class="fade-in mt-8 text-center">
+        <p class="text-[11px] tracking-widest text-gray-400">
+            進捗や記録は、Journalに残しています。
+        </p>
+
+        <div class="mt-4 text-[11px] tracking-widest">
+            <a href="journal.html" class="text-gray-400 hover:text-black transition-colors border-b border-gray-100 hover:border-black pb-1">
+                Journal →
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-32 mb-2 text-[10px] tracking-[0.2em] text-gray-400 text-center">
+        &copy; 2026 rawb | Summer Harvest Coming Soon
+    </footer>
+
+    <script>
+        function updateCountdown() {
+            const targetDate = new Date('July 1, 2026 00:00:00').getTime();
+            const now = new Date().getTime();
+            const diff = targetDate - now;
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            document.getElementById('countdown').innerHTML =
+              days + '<span class="text-[10px] ml-1 uppercase">Days</span>';
+        }
+        updateCountdown();
+        setInterval(updateCountdown, 1000 * 60 * 60);
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+
+</body>
+</html>
